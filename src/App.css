@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');
+
+html, body, #root, #root>div {
+  height: 120%
+}
+
+.App {
+  display: flex;
+  align-content: center;
+  font-family: 'Raleway', sans-serif;
+  background-color: #F3F5F7;
+  height: 100%;
+}
+
+.collection {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 3rem;
+  background-color: #EBEEF1;
+  padding: 1.5rem;
+  height: 90%;
+}
+
+.topic-wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.topic {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  min-height: 5.5rem;
+  padding: 1rem 3rem 1rem 3rem;
+  width: 60%;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
+
+}
+
+.topic-head{
+  width: 90%;
+  padding: 1rem;
+}
+
+.head-hed{
+  font-size:25px;
+  font-weight: 200;
+}
+
+.head-sub{
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 8px;
+}
+
+.topic:hover{
+  background-color: #EBEEF1;
+  cursor: pointer;
+}
+
+.topic-name {
+  font-size: 17px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.topic-sub{
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 200;
+}
+
+.topic-num{
+  margin-top: 8px;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.topic-author{
+  margin-top: 2px;
+  font-weight: 200;
+  font-size: 13px;
+}
+
+.author-name{
+  font-weight: 400;
+}
+
+.article{
+  width: 90%;
+  background-color: #fff;
+  box-shadow: 1px 1px 3px 0 rgba(0, 0, 0, .2);
+  margin-bottom: 1px;
+  padding: 1.5rem;
+}
+
+.article:hover{
+  background-color: #F3F5F7;
+  cursor: pointer;
+}
+
+.article-text{
+  font-family: 'Montserrat', sans-serif;
+  padding: 1.5rem;
+  font-weight: 600;
+
+}
